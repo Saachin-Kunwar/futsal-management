@@ -110,3 +110,5 @@ SIMPLE_JWT = {
 
 # CORS settings for React Frontend
 CORS_ALLOW_ALL_ORIGINS = True # Set to False and specify CORS_ALLOWED_ORIGINS in production
+
+AUTH_USER_MODEL = 'accounts.User'
